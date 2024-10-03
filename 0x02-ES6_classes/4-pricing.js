@@ -1,6 +1,6 @@
 /* eslint-disable no-underscore-dangle */
 /*
-onstructor attributes:
+c   onstructor attributes:
 amount (Number)
 currency (Currency)
 Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
