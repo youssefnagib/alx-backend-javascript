@@ -21,4 +21,8 @@ describe('calculateNumber', () => {
   it('should handle zero correctly', () => {
     assert.strictEqual(calculateNumber(0, 0), 0);
   });
+
+  it('should handle floating point correctly', () => {
+    assert.strictEqual(calculateNumber(0.49999, 0.5), 0.5);
+  });
 });
