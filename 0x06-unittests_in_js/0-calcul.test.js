@@ -23,6 +23,6 @@ describe('calculateNumber', () => {
   });
 
   it('should handle floating point correctly', () => {
-    assert.strictEqual(calculateNumber(0.49999, 0.5), 0.5);
+    assert.strictEqual(calculateNumber(0.49999, 0.5), 1);
   });
 });
